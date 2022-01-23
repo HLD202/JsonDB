@@ -1,0 +1,34 @@
+{
+    "Table": {
+        "__slots__": {
+            "type": {
+                "Field_1": "Integer",
+                "Field_2": "String",
+                "Field_3": "Dict"
+            },
+            
+            "ai": ["Field_1"],
+            "unique": ["Field_1", "Field_2"],
+            "nullable": ["Field_1", "Field_2"],            
+
+            "max_size": {
+                "Field_1": 50,
+                "Field_2": 100
+            }
+        },
+
+        "Field_1": [1, 2, 3],
+        "Field_2": ["sample_text", "another_sample_text", null],
+        "Field_3": [
+            {
+                "1": "google.com",
+                "2": "yahoo.com"
+            }, 
+            {},
+            {
+                "pass": 200,
+                "faild": 400
+            } 
+    ]
+    }
+}
